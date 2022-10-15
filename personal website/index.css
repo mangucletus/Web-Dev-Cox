@@ -1,0 +1,14 @@
+body{
+    background-color: azure;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-color: aqua;
+    border-width: 5px;
+    width: 10% ;
+    
+}
+img{
+    border-radius: 50px;
+}
