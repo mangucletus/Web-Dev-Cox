@@ -1,14 +1,33 @@
 body{
-    background-color: azure;
+    background-color: #8BBCCC;
 }
 hr{
     border-style: none;
     border-top: dotted;
     border-color: aqua;
     border-width: 5px;
-    width: 10% ;
-    
+    width: 10% ; 
 }
+
+
 img{
     border-radius: 50px;
 }
+h1, h3 {
+    background-color: #5C2E7E;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.myPet{
+    width: 100px;
+    height: 100px;
+
+}
+.contactme :hover{
+    background-color: greenyellow;
+    
+}
+
+/* note: classes dot while ids use hash for external css taret */
+/* class is used severally on one or more target, ids can be used for only ones */
