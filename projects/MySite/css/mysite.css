@@ -1,12 +1,45 @@
 body{
     margin: 0;
-    
-    background-color: #749F82;
 }
 h1{
     margin-top: 0;
 }
-div{
-    background-color: #BDF2D5;
-    padding-left: 10px;
+
+
+.main-container{
+    background-color: cornsilk;
+    position: absolute;
+    
+
+    
+    
+    
 }
+.top-container{
+    height: 150px;
+    width: 150px;
+    background-color:#395144 ;
+    position: absolute;
+
+    
+    
+}
+.middle-container{
+    height: 150px;
+    width: 150px;
+    background-color: #AA8B56;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    
+}
+.bottom-container{
+    height: 150px;
+    width: 150px;
+    background-color:#DC5F00 ; 
+    position: absolute;
+    left: 300px;
+    top: 300px;
+
+}
+
