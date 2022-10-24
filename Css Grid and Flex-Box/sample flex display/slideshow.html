@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="slideshow.css">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Display Slide Show of Images</title>
+
+</head>
+
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="../imag/highschool1.jpg">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="../imag/fro.jpg">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="../imag/highschool2.jpg">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="../imag/gif.webp">
+    <div class="text">Caption Four</div>
+  </div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<!-- javascript file -->
+<script src="slideshow.js"></script>
+
+
+</body>
+</html> 
