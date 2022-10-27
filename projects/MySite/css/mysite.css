@@ -1,6 +1,6 @@
 body{
     margin-left: 10px;
-    background-color: #B1AFFF;
+    
 }
 h1{
     margin-top: 0;
@@ -12,26 +12,10 @@ h2{
     font-family: 'Merriweather', serif;
 }
 
-
-.main-container{
-    background-color: cornsilk; 
+.top-first-containe{
+    background-color: #EAF6F6; 
     
 }
-.top-container{
-    height: 150px;
-    width: auto;
-    background-color:#395144 ;
 
-}
-.middle-container{
-    height: 150px;
-    width: auto;
-    background-color: #AA8B56;
-    
-}
-.bottom-container{
-    height: 150px;
-    width: auto;
-    background-color:#DC5F00 ; 
-}
+
 
