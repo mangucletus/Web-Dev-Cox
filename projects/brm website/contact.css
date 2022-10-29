@@ -1,0 +1,16 @@
+body{
+    background-color: #749F82;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn :hover{
+    color: #FB2576;
+}
+
+.form-info{
+    justify-content: space-between;
+}

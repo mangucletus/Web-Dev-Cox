@@ -1,21 +1,132 @@
 body{
-    margin-left: 10px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
     
 }
 h1{
-    margin-top: 0;
-    font-family: 'Merriweather', serif;
+    font-family: 'Sacramento', cursive;
 }
-
 h2{
-
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
 }
 
-.top-first-containe{
-    background-color: #EAF6F6; 
+h1, h2, h3 {
+    font-size: 32px;
+    
+    color: #66BFBF;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-color: #EAF6F6;
+    border-width: 5px;
+    width: 10% ; 
+    padding: 40px;
     
 }
+p{
+    padding-bottom: 30px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-main-container{
+    background-color: #EAF6F6;
+    margin-bottom: 10%;
+}
 
 
+.top-cloud{
+    padding: 5% 0 0 60%;
+}
+.buttom-cloud{
+    padding: 0 0 20% 10%;
+}
+.mountain{
+    align-content: center;
+}
 
+.middle-main-container{
+    text-align: center;
+}
+
+.profile-picture{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.computer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.official-logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.btn {
+    margin: 30px 0 60px 0;
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+    background-image: -moz-linear-gradient(top, #11999E, #11999E);
+    background-image: -ms-linear-gradient(top, #11999E, #11999E);
+    background-image: -o-linear-gradient(top, #11999E, #11999E);
+    background-image: linear-gradient(to bottom, #11999E, #11999E);
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .contactme-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+
+  }
+
+.contactme :hover{
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+.last-main-container > h3{
+    font-size: 18px;
+}
+
+.email :hover{
+    color: #3cb0fd;
+}
+footer{
+    background-color: #11999E;
+    margin-bottom: 0;
+}
